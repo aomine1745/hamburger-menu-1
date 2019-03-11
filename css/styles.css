@@ -23,6 +23,7 @@ body{
 	background-color: #262626;
 	display: block;
 	margin: 0 auto;
+	border-radius: 8px;
 }
 .toggle span:nth-child(1){
 	transform: translateY(10px);
@@ -49,6 +50,7 @@ body{
 	background-color: #262626;
 	transition: .5s;
 	z-index: -1;
+	border-radius: 8px;
 }
 .toggle.active:before{
 	width: 100%;
